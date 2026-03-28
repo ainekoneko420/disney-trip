@@ -571,13 +571,9 @@ body::after {
   <button class="nav-tab" onclick="showDay(2)">DAY2</button>
   <button class="nav-tab" onclick="showDay(3)">DAY3</button>
   <button class="nav-tab" onclick="showDay(4)">🍽️ 食事</button>
-  <button class="nav-tab" onclick="showDay(5)">📸 画像</button>
-  <button class="nav-tab" onclick="showDay(6)">🛍️ 買い物</button>
-  <button class="nav-tab" onclick="showDay(7)">🍬 シー</button>
-  <button class="nav-tab" onclick="showDay(8)">🎮</button>
-  <button class="nav-tab" onclick="showDay(9)">👋</button>
-  <button class="nav-tab" onclick="showDay(10)">🎫</button>
-  <button class="nav-tab" onclick="showDay(11)">🏰</button>
+  <button class="nav-tab" onclick="showDay(5)">🛍️ 買い物</button>
+  <button class="nav-tab" onclick="showDay(6)">🌊 シー</button>
+  <button class="nav-tab" onclick="showDay(7)">🏰 ランド</button>
 </nav>
 
 <main class="main">
@@ -919,67 +915,6 @@ body::after {
   </table>
 </section>
 
-<!-- 25周年メニュー＆グッズ画像 -->
-<section class="sec" id="sec-5">
-  <h2 class="sec-title"><span class="icon">📸</span>25周年メニュー＆グッズ</h2>
-  <p style="font-size:0.85rem;color:var(--text2);margin-bottom:12px;">画像をタップで拡大できます</p>
-
-  <h3 style="font-size:0.95rem;color:var(--sea-c);margin:16px 0 8px;font-weight:700;">🌊 シー（25周年グッズ）</h3>
-  <div class="gallery">
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.37.00.png" onclick="openLightbox(this.src)" alt="キャップ ¥3,400">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.35.31.png" onclick="openLightbox(this.src)" alt="マカロン">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.35.43.png" onclick="openLightbox(this.src)" alt="スペシャルサンデー">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.36.05.png" onclick="openLightbox(this.src)" alt="チュロス">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.35.54.png" onclick="openLightbox(this.src)" alt="浮き輪マン">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.36.23.png" onclick="openLightbox(this.src)" alt="スーベニアカップ">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.36.30.png" onclick="openLightbox(this.src)" alt="スーベニアプレート">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.38.34.png" onclick="openLightbox(this.src)" alt="クッキー">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.39.12.png" onclick="openLightbox(this.src)" alt="おせんべい">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.38.45.png" onclick="openLightbox(this.src)" alt="ポテトスナック">
-    </div>
-  </div>
-
-  <h3 style="font-size:0.95rem;color:var(--land-c);margin:24px 0 8px;font-weight:700;">🍬 ランド（ヴァネロペ）</h3>
-  <div class="gallery">
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.56.09.png" onclick="openLightbox(this.src)" alt="キャップ">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.56.19.png" onclick="openLightbox(this.src)" alt="カチューシャ">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.42.03.png" onclick="openLightbox(this.src)" alt="スーベニアカップ">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.42.12.png" onclick="openLightbox(this.src)" alt="スーベニアプレート">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.56.57.png" onclick="openLightbox(this.src)" alt="おせんべい">
-    </div>
-    <div class="gallery-item">
-      <img src="スクリーンショット 2026-03-21 14.56.33.png" onclick="openLightbox(this.src)" alt="クッキー">
-    </div>
-  </div>
-</section>
 
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
@@ -988,8 +923,20 @@ body::after {
 </div>
 
 <!-- 買い物メモ -->
-<section class="sec" id="sec-6">
+<section class="sec" id="sec-5">
   <h2 class="sec-title"><span class="icon">🛍️</span>買い物メモ</h2>
+  <p style="font-size:0.85rem;color:var(--text2);margin-bottom:12px;">画像をタップで拡大できます</p>
+  <div class="gallery">
+    <div class="gallery-item"><img src="TDS_cap9169.jpg" onclick="openLightbox(this.src)" alt="キャップ1"></div>
+    <div class="gallery-item"><img src="TDS_cap9170.jpg" onclick="openLightbox(this.src)" alt="キャップ2"></div>
+    <div class="gallery-item"><img src="TDS_carry9144.jpg" onclick="openLightbox(this.src)" alt="お土産"></div>
+    <div class="gallery-item"><img src="TDS_cupplate_9143.jpg" onclick="openLightbox(this.src)" alt="カップ&プレート"></div>
+    <div class="gallery-item"><img src="TDS_toy71.jpg" onclick="openLightbox(this.src)" alt="おもちゃ1"></div>
+    <div class="gallery-item"><img src="TDS_toy779.jpg" onclick="openLightbox(this.src)" alt="おもちゃ2"></div>
+    <div class="gallery-item"><img src="TDS_toy78.jpg" onclick="openLightbox(this.src)" alt="おもちゃ3"></div>
+    <div class="gallery-item"><img src="TDS_toy780.jpg" onclick="openLightbox(this.src)" alt="おもちゃ4"></div>
+  </div>
+  <h3 style="font-size:0.9rem;color:var(--text2);margin:16px 0 12px;">現地で必ず買うもの</h3>
   <h3 style="font-size:0.9rem;color:var(--text2);margin-bottom:12px;">現地で必ず買うもの</h3>
   <div class="shop-list">
     <div class="shop-item">
@@ -1040,9 +987,9 @@ body::after {
   </div>
 </section>
 
-<!-- グルメ候補（シー） -->
-<section class="sec" id="sec-7">
-  <h2 class="sec-title"><span class="icon">🍬</span>グルメ候補（シー）</h2>
+<!-- シー（全画像） -->
+<section class="sec" id="sec-6">
+  <h2 class="sec-title"><span class="icon">🌊</span>シー（全画像）</h2>
   <p style="font-size:0.85rem;color:var(--text2);margin-bottom:12px;">画像をタップで拡大できます</p>
   <div class="gallery">
     <div class="gallery-item"><img src="gourmet-01.png" onclick="openLightbox(this.src)" alt="グルメ1"></div>
@@ -1066,48 +1013,34 @@ body::after {
     <div class="gallery-item"><img src="gourmet-19.png" onclick="openLightbox(this.src)" alt="グルメ19"></div>
     <div class="gallery-item"><img src="gourmet-20.png" onclick="openLightbox(this.src)" alt="グルメ20"></div>
     <div class="gallery-item"><img src="gourmet-21.png" onclick="openLightbox(this.src)" alt="グルメ21"></div>
-  </div>
-</section>
-
-<!-- ゲーム -->
-<section class="sec" id="sec-8">
-  <h2 class="sec-title"><span class="icon">🎮</span>ゲーム</h2>
-  <p style="font-size:0.85rem;color:var(--text2);margin-bottom:12px;">画像をタップで拡大できます</p>
-  <div class="gallery">
     <div class="gallery-item"><img src="game-01.png" onclick="openLightbox(this.src)" alt="ゲーム1"></div>
     <div class="gallery-item"><img src="game-02.png" onclick="openLightbox(this.src)" alt="ゲーム2"></div>
-  </div>
-</section>
-
-<!-- グリーティング -->
-<section class="sec" id="sec-9">
-  <h2 class="sec-title"><span class="icon">👋</span>グリーティング</h2>
-  <p style="font-size:0.85rem;color:var(--text2);margin-bottom:12px;">画像をタップで拡大できます</p>
-  <div class="gallery">
     <div class="gallery-item"><img src="greeting-01.png" onclick="openLightbox(this.src)" alt="グリ1"></div>
     <div class="gallery-item"><img src="greeting-02.png" onclick="openLightbox(this.src)" alt="グリ2"></div>
     <div class="gallery-item"><img src="greeting-03.png" onclick="openLightbox(this.src)" alt="グリ3"></div>
     <div class="gallery-item"><img src="greeting-04.png" onclick="openLightbox(this.src)" alt="グリ4"></div>
     <div class="gallery-item"><img src="greeting-05.png" onclick="openLightbox(this.src)" alt="グリ5"></div>
     <div class="gallery-item"><img src="greeting-06.png" onclick="openLightbox(this.src)" alt="グリ6"></div>
-  </div>
-</section>
-
-<!-- スタンバイパス -->
-<section class="sec" id="sec-10">
-  <h2 class="sec-title"><span class="icon">🎫</span>スタンバイパス（25周年グッズ）</h2>
-  <p style="font-size:0.85rem;color:var(--text2);margin-bottom:12px;">画像をタップで拡大できます</p>
-  <div class="gallery">
     <div class="gallery-item"><img src="standby-01.png" onclick="openLightbox(this.src)" alt="SP1"></div>
     <div class="gallery-item"><img src="standby-02.png" onclick="openLightbox(this.src)" alt="SP2"></div>
     <div class="gallery-item"><img src="standby-03.png" onclick="openLightbox(this.src)" alt="SP3"></div>
     <div class="gallery-item"><img src="standby-04.png" onclick="openLightbox(this.src)" alt="SP4"></div>
+    <div class="gallery-item"><img src="TDS_macallon_9119.jpg" onclick="openLightbox(this.src)" alt="マカロン"></div>
+    <div class="gallery-item"><img src="TDS_sande_9120.jpg" onclick="openLightbox(this.src)" alt="サンデー"></div>
+    <div class="gallery-item"><img src="TDS_chullos9121.jpg" onclick="openLightbox(this.src)" alt="チュロス"></div>
+    <div class="gallery-item"><img src="TDS_foodmap9145.jpg" onclick="openLightbox(this.src)" alt="フードマップ1"></div>
+    <div class="gallery-item"><img src="TDS_foodmap9147.jpg" onclick="openLightbox(this.src)" alt="フードマップ2"></div>
+    <div class="gallery-item"><img src="TDS_sweets171.jpg" onclick="openLightbox(this.src)" alt="スウィーツ1"></div>
+    <div class="gallery-item"><img src="TDS_sweets173.jpg" onclick="openLightbox(this.src)" alt="スウィーツ2"></div>
+    <div class="gallery-item"><img src="TDS_sweets175.jpg" onclick="openLightbox(this.src)" alt="スウィーツ3"></div>
+    <div class="gallery-item"><img src="TDS_sweets9174.jpg" onclick="openLightbox(this.src)" alt="スウィーツ4"></div>
+    <div class="gallery-item"><img src="TDS_sweets9176.jpg" onclick="openLightbox(this.src)" alt="スウィーツ5"></div>
   </div>
 </section>
 
-<!-- ランド-グルメ -->
-<section class="sec" id="sec-11">
-  <h2 class="sec-title"><span class="icon">🏰</span>グルメ候補（ランド）</h2>
+<!-- ランド（全画像） -->
+<section class="sec" id="sec-7">
+  <h2 class="sec-title"><span class="icon">🏰</span>ランド（全画像）</h2>
   <p style="font-size:0.85rem;color:var(--text2);margin-bottom:12px;">画像をタップで拡大できます</p>
   <div class="gallery">
     <div class="gallery-item"><img src="land-gourmet-01.png" onclick="openLightbox(this.src)" alt="ランド1"></div>
@@ -1119,8 +1052,25 @@ body::after {
     <div class="gallery-item"><img src="land-gourmet-07.png" onclick="openLightbox(this.src)" alt="ランド7"></div>
     <div class="gallery-item"><img src="land-gourmet-08.png" onclick="openLightbox(this.src)" alt="ランド8"></div>
     <div class="gallery-item"><img src="land-gourmet-09.png" onclick="openLightbox(this.src)" alt="ランド9"></div>
+    <div class="gallery-item"><img src="TDL_game_10.jpg" onclick="openLightbox(this.src)" alt="ゲーム1"></div>
+    <div class="gallery-item"><img src="TDL_game_11.jpg" onclick="openLightbox(this.src)" alt="ゲーム2"></div>
+    <div class="gallery-item"><img src="TDL_game_20.jpg" onclick="openLightbox(this.src)" alt="ゲーム3"></div>
+    <div class="gallery-item"><img src="TDL_game_21.jpg" onclick="openLightbox(this.src)" alt="ゲーム4"></div>
+    <div class="gallery-item"><img src="TDL_greeting_00.jpg" onclick="openLightbox(this.src)" alt="グリ1"></div>
+    <div class="gallery-item"><img src="TDL_greeting_01.jpg" onclick="openLightbox(this.src)" alt="グリ2"></div>
+    <div class="gallery-item"><img src="TDL_greeting_011.jpg" onclick="openLightbox(this.src)" alt="グリ3"></div>
+    <div class="gallery-item"><img src="TDL_greeting_02.jpg" onclick="openLightbox(this.src)" alt="グリ4"></div>
+    <div class="gallery-item"><img src="TDL_greeting_021.jpg" onclick="openLightbox(this.src)" alt="グリ5"></div>
+    <div class="gallery-item"><img src="TDL_greeting_03.jpg" onclick="openLightbox(this.src)" alt="グリ6"></div>
+    <div class="gallery-item"><img src="TDL_greeting_031.jpg" onclick="openLightbox(this.src)" alt="グリ7"></div>
+    <div class="gallery-item"><img src="TDL_grume.jpg" onclick="openLightbox(this.src)" alt="グルメ"></div>
+    <div class="gallery-item"><img src="TDL_specialmenu.jpg" onclick="openLightbox(this.src)" alt="スペシャルメニュー"></div>
   </div>
 </section>
+
+
+
+
 
 </main>
 
